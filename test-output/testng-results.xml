@@ -2,49 +2,63 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-23T23:55:14 IST" name="Default suite" finished-at="2023-06-23T23:58:18 IST" duration-ms="184019">
+  <suite started-at="2023-07-18T12:27:27 IST" name="Default suite" finished-at="2023-07-18T12:28:51 IST" duration-ms="84212">
     <groups>
     </groups>
-    <test started-at="2023-06-23T23:55:14 IST" name="Default test" finished-at="2023-06-23T23:58:18 IST" duration-ms="184019">
+    <test started-at="2023-07-18T12:27:27 IST" name="Default test" finished-at="2023-07-18T12:28:51 IST" duration-ms="84212">
       <class name="Amazon.AddMultipleProductsToCartandValidateTest">
-        <test-method is-config="true" signature="BS()[pri:0, instance:Amazon.AddMultipleProductsToCartandValidateTest@1e0b4072]" started-at="2023-06-23T23:55:14 IST" name="BS" finished-at="2023-06-23T23:55:14 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="BS()[pri:0, instance:Amazon.AddMultipleProductsToCartandValidateTest@65c7a252]" started-at="2023-07-18T12:27:27 IST" name="BS" finished-at="2023-07-18T12:27:27 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BS -->
-        <test-method is-config="true" signature="BT()[pri:0, instance:Amazon.AddMultipleProductsToCartandValidateTest@1e0b4072]" started-at="2023-06-23T23:55:14 IST" name="BT" finished-at="2023-06-23T23:55:14 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BT -->
-        <test-method is-config="true" signature="BC()[pri:0, instance:Amazon.AddMultipleProductsToCartandValidateTest@1e0b4072]" started-at="2023-06-23T23:55:14 IST" name="BC" finished-at="2023-06-23T23:55:16 IST" duration-ms="1790" status="PASS">
+        <test-method is-config="true" signature="BC()[pri:0, instance:Amazon.AddMultipleProductsToCartandValidateTest@65c7a252]" started-at="2023-07-18T12:27:27 IST" name="BC" finished-at="2023-07-18T12:28:12 IST" duration-ms="44842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BC -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:Amazon.AddMultipleProductsToCartandValidateTest@1e0b4072]" started-at="2023-06-23T23:55:16 IST" name="BM" finished-at="2023-06-23T23:55:18 IST" duration-ms="1969" status="PASS">
+        <test-method is-config="true" signature="BM()[pri:0, instance:Amazon.AddMultipleProductsToCartandValidateTest@65c7a252]" started-at="2023-07-18T12:28:12 IST" name="BM" finished-at="2023-07-18T12:28:13 IST" duration-ms="1540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BM -->
-        <test-method signature="addMultipleProductsToCartandValidateTest()[pri:0, instance:Amazon.AddMultipleProductsToCartandValidateTest@1e0b4072]" started-at="2023-06-23T23:55:18 IST" name="addMultipleProductsToCartandValidateTest" finished-at="2023-06-23T23:58:18 IST" duration-ms="180216" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="addMultipleProductsToCartandValidateTest()[pri:0, instance:Amazon.AddMultipleProductsToCartandValidateTest@65c7a252]" started-at="2023-07-18T12:28:13 IST" name="addMultipleProductsToCartandValidateTest" finished-at="2023-07-18T12:28:51 IST" duration-ms="37774" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[Cannot locate an element using xpath=//input[@id='add-to-cart-button']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-5DMPA42V', ip: '192.168.29.91', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\roopk\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63736}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 643602bea5aaa826109c840d5ff387e7]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//input[@id='add-to-cart-button']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-5DMPA42V', ip: '192.168.29.91', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\roopk\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63736}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 643602bea5aaa826109c840d5ff387e7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
 at Pages.productPage.AddToCartBtn(productPage.java:42)
 at Amazon.AddMultipleProductsToCartandValidateTest.addMultipleProductsToCartandValidateTest(AddMultipleProductsToCartandValidateTest.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -77,23 +91,19 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMultipleProductsToCartandValidateTest -->
-        <test-method is-config="true" signature="AC()[pri:0, instance:Amazon.AddMultipleProductsToCartandValidateTest@1e0b4072]" started-at="2023-06-23T23:58:18 IST" name="AC" finished-at="2023-06-23T23:58:18 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AC -->
-        <test-method is-config="true" signature="AT()[pri:0, instance:Amazon.AddMultipleProductsToCartandValidateTest@1e0b4072]" started-at="2023-06-23T23:58:18 IST" name="AT" finished-at="2023-06-23T23:58:18 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AT -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:Amazon.AddMultipleProductsToCartandValidateTest@1e0b4072]" started-at="2023-06-23T23:58:18 IST" name="AM" finished-at="2023-06-23T23:58:18 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AM()[pri:0, instance:Amazon.AddMultipleProductsToCartandValidateTest@65c7a252]" started-at="2023-07-18T12:28:51 IST" name="AM" finished-at="2023-07-18T12:28:51 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AM -->
-        <test-method is-config="true" signature="AS()[pri:0, instance:Amazon.AddMultipleProductsToCartandValidateTest@1e0b4072]" started-at="2023-06-23T23:58:18 IST" name="AS" finished-at="2023-06-23T23:58:18 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AC()[pri:0, instance:Amazon.AddMultipleProductsToCartandValidateTest@65c7a252]" started-at="2023-07-18T12:28:51 IST" name="AC" finished-at="2023-07-18T12:28:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+        <test-method is-config="true" signature="AS()[pri:0, instance:Amazon.AddMultipleProductsToCartandValidateTest@65c7a252]" started-at="2023-07-18T12:28:51 IST" name="AS" finished-at="2023-07-18T12:28:51 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AS -->

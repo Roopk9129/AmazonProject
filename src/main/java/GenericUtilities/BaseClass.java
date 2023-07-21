@@ -29,14 +29,14 @@ public class BaseClass {
 		System.out.println("BS Executed");
 	}
 
+//	@BeforeTest
+//	public void BT() {
+//		System.out.println("BT Executed");
+//
+//	}
+
+//	@Parameters("browser")
 	@BeforeTest
-	public void BT() {
-		System.out.println("BT Executed");
-
-	}
-
-//	@Parameters("Browser")
-	@BeforeClass
 //	public void BC(String Browser) {
 	public void BC() throws IOException {
 		String Browser = PF.AmazonUrlFetch("browser");
@@ -73,10 +73,10 @@ public class BaseClass {
 		System.out.println("AS Executed");
 	}
 
-	@AfterTest
-	public void AT() {
-		System.out.println("AT Executed");
-	}
+//	@AfterTest
+//	public void AT() {
+//		System.out.println("AT Executed");
+//	}
 
 	@AfterClass
 	public void AC() {

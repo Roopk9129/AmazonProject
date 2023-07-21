@@ -1,0 +1,239 @@
+<html>
+<head>
+<title>TestNG:  Testr</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Testr</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jul 01 10:02:28 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>379 seconds (379601 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Amazon.AddMultipleProductsToCartandValidateTest.addMultipleProductsToCartandValidateTest()'><b>addMultipleProductsToCartandValidateTest</b><br>Test class: Amazon.AddMultipleProductsToCartandValidateTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [Chicco Baby Moments Gentle Body Wash and Shampoo fo…] but found [CATBL Baby Girl Singing Poem Doll Soft Toy for Kids Multi (Poem Dall 01)],
+	expected [HAST SHILP Handmade Wooden Elephant Barat Gol…] but found [Swaha Marapachi Raja Rani Doll (20Cm Height) | Traditional Wooden Dolls for Decoration | Bommala Koluvu | Pattada Gombe | 2 Dressed Dolls (Raja &amp; Rani)],
+	expected [NSA Soft Cute Doll | Attractive Stuffed Toys | Grab Your Att…] but found [Liquortees Mermaid Soft Doll Stuffed Plush Toy, Soft Dolls for Girls,Teddy Bear Soft Toy, Animal Toy Kids, Barbie Doll, Birthday Gift Home Decoration Toy for Kids Girls (30 cm : Purple)],
+	expected [Barbie™ The Movie Doll, Margot Robbie as, Collectibl…] but found [Ashni Dolls Traditional Handmade Doll Sitting 6 inch Green Female Doll],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [Barbie Doll (Multicolour)],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [Barbie® Holiday Fun Doll (12 inches), Blonde Highlighted Hair, Travel Tote &amp; Hat, Swimsuit &amp; Summer Accessories, Great Gift for Kids 3 to 7 Years Old],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [Barbie Doll (11.5 inches) with Colorful Butterfly Logo Print Red Dress &amp; Strappy Heels, Great Gift for Ages 3 Years Old &amp; Up],
+	expected [Toys Uncle L*O*L suprirse (O*M*G Lounge Doll NEONL…] but found [Barbie Dreamtopia Fairy Doll (11.5-in, Purple Hair) Wearing Skirt, Clip-On Wings &amp; Tiara, Gift 3 to 7 Year Olds],
+	expected [Baby Alive Change Play Baby Doll, Drinks and Wets, Reus…] but found [Disney Princess Toys, Rapunzel Doll with Color-Change Hair Extensions and Hair-Styling Pieces, Inspired by The Movie],
+	expected [Chicco Baby Moments Gentle Body Wash and Shampoo fo…] but found [VGRASSP Singing Songs and Poem Baby Girl Doll - Big Size Original - Plush Soft Clothing - 40 cm (Colour and Dress as per Stock)],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [SUPER TOY Folding Hands Teacher Doll Toy with 2 Baby Doll Play Set for Kids Girls],
+	expected [Toyshine Dream Princess Doll with Music and 4D Lights fo…] but found [Tickles Movable Joints Cute Beautiful Eyes Fashionable Dress Doll for Kids Girls (Size: 30 cm; Color: Purple)],
+	expected [Imagimake Window Art - Princess - 16 Pieces Glass Pa…] but found [Cri8Hub 2 Pcs Long Hair Trending preety/Cute Doll Set with Moveable Joint &amp; Other Ornaments (Imported Doll) Pack of 2 (Doll for Girls)],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [Barbie Doll (11.5 inches) with Colorful Butterfly Logo Print Yellow Dress &amp; Strappy Heels, Great Gift for Ages 3 Years Old &amp; Up],
+	expected [Baby Alive Change Play Baby Doll, Drinks and Wets, Reus…] but found [VGRASSP Realistic Soft Stuffed Doll for Your Baby Boy Twinkle Twinkle Little Star Cute Little Perfumed Kids Toy with Free Nipple and Design],
+	expected [Baby Alive Change Play Baby Doll, Drinks and Wets, Reus…] but found [Barbie Fashionistas Doll #182, Long Wavy Brunette Hair, Headband, Orange Floral Print Dress with Ruffle Details &amp; Heels, Toy for Kids Ages 3 and Up],
+	expected [Baby Alive Glo Pixies Doll, Tia Twinkle, Interactive 10.5-inc…] but found [Barbie Toys, Chelsea Doll and Accessories, Travel Set with Puppy and 6 Pieces Including Pet Carrier],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [Barbie Doll (11.5 inches) with Colorful Butterfly Logo Print Blue Dress &amp; Strappy Heels, Great Gift for Ages 3 Years Old &amp; Up],
+	expected [Wembley Interactive Dancing Cactus Talking Toy for Baby…] but found [VGRASSP Dancing Miracle Princess Toy Doll with Wings Interactive Revolving Cute Doll Colorful LED Lights and Music for Girls (Design 2)],
+	expected [Barbie Dolls Wearing Logo Print Blue Dress, Toy for Kid…] but found [Toyshine 8 inches Realistic Jinny Baby Doll Girl, Sea Green],
+	expected [Baby Alive Change Play Baby Doll, Drinks and Wets, Reus…] but found [Florix Stainless steel Electric Instrument Sterilizer (12×6×4)],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [RAMUS Fairy Beautiful Miss India &amp; Frozen Doll Set with Accessories for Girls],
+	expected [Disney Princess Dolls, New for 2023, Elsa Posable Fashion…] but found [LUCHILA Doll with Dresses Makeup and Doll Accessories, Style Wardrobe Doll Set for Girls, Doll Toy for Kids],
+	expected [Baby Alive Magical Styles Baby Doll, 12-Inch Toy for K…] but found [PSB (R) Mini Doll with Various Color &amp; Clothes (Pack of 8)],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [Barbie Barbie Doll with Clothes and Accessories for 4 Complete Outfits, Gift for 3 to 8 Year Olds],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [Tickles Teacher Study Plastic Doll Set with 2 nos Student Doll Set School Benches, School Table, Bags and Bottles - Assorted- Multi Color Size: 30 cm],
+	expected [Baby Alive Magical Styles Baby Doll, 12-Inch Toy for K…] but found [FunBlast Doll Toys for Kids, (Pack of 10 Pcs)- Small Doll for Girls- 10 CM Cute Realistic Dolls for Girls, Dolls for 3+ Years Girls (10Pcs, Multicolor) (Dress Color May Vary)],
+	expected [Baby Alive Magical Styles Baby Doll, 12-Inch Toy for K…] but found [Tickles Set Movable Jointed Makeup Cute Girl Brown Eyes Fashionable Doll for Kid Girls (Size: 30 cm Color: Brown)],
+	expected [Barbie™ The Movie Doll, Margot Robbie as, Collectibl…] but found [Barbie Fashionistas Doll #187, Brunette Ponytail, Shift Dress, Pink Boots, Toy for Kids Ages 3 and Up],
+	expected [Imagimake Learn Indian Art Forms-Arts and Craft DIY Ki…] but found [Disney Frozen Toys, Elsa Fashion Doll in Signature Clothing and Olaf Figure Inspired Frozen 2],
+	expected [Barbie™ The Movie Doll, Margot Robbie as, Collectibl…] but found [Barbie™ The Movie Doll, Margot Robbie as, Collectible Doll Wearing Gold Disco Jumpsuit with Glossy Curls and Golden Heels],
+	expected [Barbie™ The Movie Doll, Margot Robbie as, Collectibl…] but found [Barbie Dolls Wearing Logo Print Blue Dress, Toy for Kids Ages 3 and Up],
+	expected [Toyshine Dream Princess Doll with Music and 4D Lights fo…] but found [Barbie Dolls Wearing Logo Print Pink Dress, Toy for Kids Ages 3 and Up],
+	expected [Baby Alive Magical Styles Baby Doll, 12-Inch Toy for K…] but found [Vibgyor Vibes Small Baby Twin Girl Sisters Long Hair Doll for Kids (Multicolor)],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [BKDT Marketing Beautiful Doll Toy for Girls Moveable Arms, Elbow with Dresses &amp; Fashion Accessories],
+	expected [BAYBEE Fashion Doll for Girls Shine Hair Styling Moveable…] but found [Magicwand Plastic Fashion Doll with Her Personal Style Wardrobe &amp; Lots of Accessories【Multi-Colored 】【Pack of 1】],
+	expected [Baby Alive Change Play Baby Doll, Drinks and Wets, Reus…] but found [BKDT Marketing Beautiful Moveable Arms Doll Toy for Girls with Dress and Fashion Accessories],
+	expected [LuvLap Sunny Ride on &amp; Car for Kids with Music &amp; Horn…] but found [BKDT Marketing Beautiful Moveable Arms Doll Toy for Girls with Dress and Fashion Accessories],
+	expected [HOTKEI (Pack of 6 Slime) Multicolor Fruit Scented DIY…] but found [Toyzone Dream Palace Doll House(40 Pcs)-44161 | Play Set | Girls Doll House|Play Set with Accessories|4 Dolls with Furniture and Garden|Role Play Set|Age for 3-8 Years],
+	expected [Barbie™ The Movie Doll, Margot Robbie as, Collectibl…] but found [Barbie Doll and Fairytale Dress-Up Set, Clothes and Accessories for Princess, Mermaid and Fairy Characters, Great Toy Gift for Ages 3 Years &amp; Up],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [Barbie® Careers Dentist Doll and Playset with Accessories, Medical Doctor Set, Toys],
+	expected [Barbie™ The Movie Doll Wearing Pink and White Gin…] but found [Barbie™ The Movie Doll, Margot Robbie as, Collectible Doll Wearing Pink Western Outfit with Cowboy Hat],
+	expected [BeeWee plush Cute Super Soft Toy Huggable For Girls (Win…] but found [Barbie Dreamtopia Mermaid Doll (Blonde) with Multi-Colored Mermaid Tail, Toy for Kids Ages 3 Years Old and Up],
+	expected [LISA Handcrafted &amp; Multicolored Wooden Lord…] but found [Disney The Little Mermaid Ariel Doll, Mermaid Fashion Doll with Signature Outfit, Toys Inspired The Little Mermaid],
+	expected [LISA Handcrafted &amp; Multicolored Wooden Lord…] but found [Disney Princess Dolls, Aurora Sleeping Beauty Posable Fashion Doll with Sparkling Clothing and Accessories, Movie Toys],
+	expected [Baby Alive Change Play Baby Doll, Drinks and Wets, Reus…] but found [Disney Princess Dolls, Merida Posable Fashion Doll with Sparkling Clothing and Accessories, Movie Toys],
+	expected [TinyMinyWorld Wooden Big Dollhouse Castel Large with…] but found [Ratna&apos;s Storewell Toy | Best Pretend Play Role Play Toys for Kids 15.5 cm&apos;s in Height (Pink Colour)],
+	expected [TOYXE Frozen Olaf Theme Foil Balloon Set of 10 Pcs] but found [Disney Frozen Toys, Anna Fashion Doll with Signature Clothing and Accessories Inspired, Gifts for Kids],
+	expected [Toyshine Dream Princess Doll with Music and 4D Lights fo…] but found [Barbie Dreamtopia Mermaid Doll (Brunette) with Multi-Colored Mermaid Tail, Toy for Kids Ages 3 Years Old and Up],
+	expected [Baby Alive Magical Styles Baby Doll, 12-Inch Toy for K…] but found [Tickles Movable Joints Cute Beautiful Eyes Fashionable Dress Doll (Color: Blue &amp; White; Size: 30 cm)],
+	expected [Barbie™ The Movie Doll, Margot Robbie as, Collectibl…] but found [Barbie Blonde Doll with Pink and White Swimsuit, Sun Hat, Tote Bag and Beach-Themed Accessories],
+	expected [Baby Alive Change Play Baby Doll, Drinks and Wets, Reus…] but found [BKDT Marketing Beautiful Doll Toy for Girls with Moveable Arms (Doll with Shoe and Dresses)],
+	expected [Barbie™ The Movie Doll, Margot Robbie as, Collectibl…] but found [Barbie® Doll, Kids Toys, Brunette in Teal Metallic Dress, Trendy Clothes and Accessories, Gifts for Kids],
+	expected [Baby Alive Roller Skate Baby Doll, 12-Inch Toy for Kids A…] but found [VGRASSP Singing Songs and Poem Baby Girl Doll - Big Size Original - Plush Soft Clothing - 55 cm (Random Color and Dress)],
+	expected [SUPER TOY Folding Hands Teacher Doll Toy with 2 Bab…] but found [Baby Alive Rainbow Spa Baby Doll, 9-Inch Spa-Themed Toy for Kids Ages 3 and Up, Includes Doll Eye Mask and Bottle, Blonde Hair],
+	expected [Barbie™ The Movie Doll, Margot Robbie as, Collectibl…] but found [Barbie™ The Movie Doll Wearing Pink and White Gingham Dress with Daisy Chain Necklace],
+	expected [Barbie® Doll in Trendy Pink Jumpsuit with Storytelling…] but found [Munchkin Land Family Doll Set Includes Mom. Dad, Daughter &amp; Son Dolls and Accessories - Assorted Colours],
+	expected [Baby Alive Magical Styles Baby Doll, 12-Inch Toy for K…] but found [JGG Jain Gift Gallery Decorative Doll - Handcrafted Doll wear The Saree or Home/Living Room/Bed Room Decoration for Girl and Gift to Your Relative],
+	expected [Imagimake Window Art - Princess - 16 Pieces Glass Pa…] but found [PULSBERY Doll Set For Kids - 20+Pcs Fashion Doll with Dresses Makeup &amp; Cute Doll Accessories Style Wardrobe Doll Set for Girls, Gudiya Barbie Barbie Baby Doll For Girls(23 Piece Dolls Assesories, 1*Doll Playset)],
+	expected [Sebamed Baby Shampoo 150ml|Ph 5.5| Camomile|Na…] but found [Baby Alive Change Play Baby Doll, Drinks and Wets, Reusable Cloth Diaper, 12-Inch Toy for Kids Ages 3 Years and Up, Brown Hair]
+	at Amazon.AddMultipleProductsToCartandValidateTest.addMultipleProductsToCartandValidateTest(AddMultipleProductsToCartandValidateTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2050584952", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2050584952'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [Chicco Baby Moments Gentle Body Wash and Shampoo fo…] but found [CATBL Baby Girl Singing Poem Doll Soft Toy for Kids Multi (Poem Dall 01)],
+	expected [HAST SHILP Handmade Wooden Elephant Barat Gol…] but found [Swaha Marapachi Raja Rani Doll (20Cm Height) | Traditional Wooden Dolls for Decoration | Bommala Koluvu | Pattada Gombe | 2 Dressed Dolls (Raja &amp; Rani)],
+	expected [NSA Soft Cute Doll | Attractive Stuffed Toys | Grab Your Att…] but found [Liquortees Mermaid Soft Doll Stuffed Plush Toy, Soft Dolls for Girls,Teddy Bear Soft Toy, Animal Toy Kids, Barbie Doll, Birthday Gift Home Decoration Toy for Kids Girls (30 cm : Purple)],
+	expected [Barbie™ The Movie Doll, Margot Robbie as, Collectibl…] but found [Ashni Dolls Traditional Handmade Doll Sitting 6 inch Green Female Doll],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [Barbie Doll (Multicolour)],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [Barbie® Holiday Fun Doll (12 inches), Blonde Highlighted Hair, Travel Tote &amp; Hat, Swimsuit &amp; Summer Accessories, Great Gift for Kids 3 to 7 Years Old],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [Barbie Doll (11.5 inches) with Colorful Butterfly Logo Print Red Dress &amp; Strappy Heels, Great Gift for Ages 3 Years Old &amp; Up],
+	expected [Toys Uncle L*O*L suprirse (O*M*G Lounge Doll NEONL…] but found [Barbie Dreamtopia Fairy Doll (11.5-in, Purple Hair) Wearing Skirt, Clip-On Wings &amp; Tiara, Gift 3 to 7 Year Olds],
+	expected [Baby Alive Change Play Baby Doll, Drinks and Wets, Reus…] but found [Disney Princess Toys, Rapunzel Doll with Color-Change Hair Extensions and Hair-Styling Pieces, Inspired by The Movie],
+	expected [Chicco Baby Moments Gentle Body Wash and Shampoo fo…] but found [VGRASSP Singing Songs and Poem Baby Girl Doll - Big Size Original - Plush Soft Clothing - 40 cm (Colour and Dress as per Stock)],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [SUPER TOY Folding Hands Teacher Doll Toy with 2 Baby Doll Play Set for Kids Girls],
+	expected [Toyshine Dream Princess Doll with Music and 4D Lights fo…] but found [Tickles Movable Joints Cute Beautiful Eyes Fashionable Dress Doll for Kids Girls (Size: 30 cm; Color: Purple)],
+	expected [Imagimake Window Art - Princess - 16 Pieces Glass Pa…] but found [Cri8Hub 2 Pcs Long Hair Trending preety/Cute Doll Set with Moveable Joint &amp; Other Ornaments (Imported Doll) Pack of 2 (Doll for Girls)],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [Barbie Doll (11.5 inches) with Colorful Butterfly Logo Print Yellow Dress &amp; Strappy Heels, Great Gift for Ages 3 Years Old &amp; Up],
+	expected [Baby Alive Change Play Baby Doll, Drinks and Wets, Reus…] but found [VGRASSP Realistic Soft Stuffed Doll for Your Baby Boy Twinkle Twinkle Little Star Cute Little Perfumed Kids Toy with Free Nipple and Design],
+	expected [Baby Alive Change Play Baby Doll, Drinks and Wets, Reus…] but found [Barbie Fashionistas Doll #182, Long Wavy Brunette Hair, Headband, Orange Floral Print Dress with Ruffle Details &amp; Heels, Toy for Kids Ages 3 and Up],
+	expected [Baby Alive Glo Pixies Doll, Tia Twinkle, Interactive 10.5-inc…] but found [Barbie Toys, Chelsea Doll and Accessories, Travel Set with Puppy and 6 Pieces Including Pet Carrier],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [Barbie Doll (11.5 inches) with Colorful Butterfly Logo Print Blue Dress &amp; Strappy Heels, Great Gift for Ages 3 Years Old &amp; Up],
+	expected [Wembley Interactive Dancing Cactus Talking Toy for Baby…] but found [VGRASSP Dancing Miracle Princess Toy Doll with Wings Interactive Revolving Cute Doll Colorful LED Lights and Music for Girls (Design 2)],
+	expected [Barbie Dolls Wearing Logo Print Blue Dress, Toy for Kid…] but found [Toyshine 8 inches Realistic Jinny Baby Doll Girl, Sea Green],
+	expected [Baby Alive Change Play Baby Doll, Drinks and Wets, Reus…] but found [Florix Stainless steel Electric Instrument Sterilizer (12×6×4)],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [RAMUS Fairy Beautiful Miss India &amp; Frozen Doll Set with Accessories for Girls],
+	expected [Disney Princess Dolls, New for 2023, Elsa Posable Fashion…] but found [LUCHILA Doll with Dresses Makeup and Doll Accessories, Style Wardrobe Doll Set for Girls, Doll Toy for Kids],
+	expected [Baby Alive Magical Styles Baby Doll, 12-Inch Toy for K…] but found [PSB (R) Mini Doll with Various Color &amp; Clothes (Pack of 8)],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [Barbie Barbie Doll with Clothes and Accessories for 4 Complete Outfits, Gift for 3 to 8 Year Olds],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [Tickles Teacher Study Plastic Doll Set with 2 nos Student Doll Set School Benches, School Table, Bags and Bottles - Assorted- Multi Color Size: 30 cm],
+	expected [Baby Alive Magical Styles Baby Doll, 12-Inch Toy for K…] but found [FunBlast Doll Toys for Kids, (Pack of 10 Pcs)- Small Doll for Girls- 10 CM Cute Realistic Dolls for Girls, Dolls for 3+ Years Girls (10Pcs, Multicolor) (Dress Color May Vary)],
+	expected [Baby Alive Magical Styles Baby Doll, 12-Inch Toy for K…] but found [Tickles Set Movable Jointed Makeup Cute Girl Brown Eyes Fashionable Doll for Kid Girls (Size: 30 cm Color: Brown)],
+	expected [Barbie™ The Movie Doll, Margot Robbie as, Collectibl…] but found [Barbie Fashionistas Doll #187, Brunette Ponytail, Shift Dress, Pink Boots, Toy for Kids Ages 3 and Up],
+	expected [Imagimake Learn Indian Art Forms-Arts and Craft DIY Ki…] but found [Disney Frozen Toys, Elsa Fashion Doll in Signature Clothing and Olaf Figure Inspired Frozen 2],
+	expected [Barbie™ The Movie Doll, Margot Robbie as, Collectibl…] but found [Barbie™ The Movie Doll, Margot Robbie as, Collectible Doll Wearing Gold Disco Jumpsuit with Glossy Curls and Golden Heels],
+	expected [Barbie™ The Movie Doll, Margot Robbie as, Collectibl…] but found [Barbie Dolls Wearing Logo Print Blue Dress, Toy for Kids Ages 3 and Up],
+	expected [Toyshine Dream Princess Doll with Music and 4D Lights fo…] but found [Barbie Dolls Wearing Logo Print Pink Dress, Toy for Kids Ages 3 and Up],
+	expected [Baby Alive Magical Styles Baby Doll, 12-Inch Toy for K…] but found [Vibgyor Vibes Small Baby Twin Girl Sisters Long Hair Doll for Kids (Multicolor)],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [BKDT Marketing Beautiful Doll Toy for Girls Moveable Arms, Elbow with Dresses &amp; Fashion Accessories],
+	expected [BAYBEE Fashion Doll for Girls Shine Hair Styling Moveable…] but found [Magicwand Plastic Fashion Doll with Her Personal Style Wardrobe &amp; Lots of Accessories【Multi-Colored 】【Pack of 1】],
+	expected [Baby Alive Change Play Baby Doll, Drinks and Wets, Reus…] but found [BKDT Marketing Beautiful Moveable Arms Doll Toy for Girls with Dress and Fashion Accessories],
+	expected [LuvLap Sunny Ride on &amp; Car for Kids with Music &amp; Horn…] but found [BKDT Marketing Beautiful Moveable Arms Doll Toy for Girls with Dress and Fashion Accessories],
+	expected [HOTKEI (Pack of 6 Slime) Multicolor Fruit Scented DIY…] but found [Toyzone Dream Palace Doll House(40 Pcs)-44161 | Play Set | Girls Doll House|Play Set with Accessories|4 Dolls with Furniture and Garden|Role Play Set|Age for 3-8 Years],
+	expected [Barbie™ The Movie Doll, Margot Robbie as, Collectibl…] but found [Barbie Doll and Fairytale Dress-Up Set, Clothes and Accessories for Princess, Mermaid and Fairy Characters, Great Toy Gift for Ages 3 Years &amp; Up],
+	expected [Butterfly EduFields Magnetic Shapes Puzzles Kids Toys for…] but found [Barbie® Careers Dentist Doll and Playset with Accessories, Medical Doctor Set, Toys],
+	expected [Barbie™ The Movie Doll Wearing Pink and White Gin…] but found [Barbie™ The Movie Doll, Margot Robbie as, Collectible Doll Wearing Pink Western Outfit with Cowboy Hat],
+	expected [BeeWee plush Cute Super Soft Toy Huggable For Girls (Win…] but found [Barbie Dreamtopia Mermaid Doll (Blonde) with Multi-Colored Mermaid Tail, Toy for Kids Ages 3 Years Old and Up],
+	expected [LISA Handcrafted &amp; Multicolored Wooden Lord…] but found [Disney The Little Mermaid Ariel Doll, Mermaid Fashion Doll with Signature Outfit, Toys Inspired The Little Mermaid],
+	expected [LISA Handcrafted &amp; Multicolored Wooden Lord…] but found [Disney Princess Dolls, Aurora Sleeping Beauty Posable Fashion Doll with Sparkling Clothing and Accessories, Movie Toys],
+	expected [Baby Alive Change Play Baby Doll, Drinks and Wets, Reus…] but found [Disney Princess Dolls, Merida Posable Fashion Doll with Sparkling Clothing and Accessories, Movie Toys],
+	expected [TinyMinyWorld Wooden Big Dollhouse Castel Large with…] but found [Ratna&apos;s Storewell Toy | Best Pretend Play Role Play Toys for Kids 15.5 cm&apos;s in Height (Pink Colour)],
+	expected [TOYXE Frozen Olaf Theme Foil Balloon Set of 10 Pcs] but found [Disney Frozen Toys, Anna Fashion Doll with Signature Clothing and Accessories Inspired, Gifts for Kids],
+	expected [Toyshine Dream Princess Doll with Music and 4D Lights fo…] but found [Barbie Dreamtopia Mermaid Doll (Brunette) with Multi-Colored Mermaid Tail, Toy for Kids Ages 3 Years Old and Up],
+	expected [Baby Alive Magical Styles Baby Doll, 12-Inch Toy for K…] but found [Tickles Movable Joints Cute Beautiful Eyes Fashionable Dress Doll (Color: Blue &amp; White; Size: 30 cm)],
+	expected [Barbie™ The Movie Doll, Margot Robbie as, Collectibl…] but found [Barbie Blonde Doll with Pink and White Swimsuit, Sun Hat, Tote Bag and Beach-Themed Accessories],
+	expected [Baby Alive Change Play Baby Doll, Drinks and Wets, Reus…] but found [BKDT Marketing Beautiful Doll Toy for Girls with Moveable Arms (Doll with Shoe and Dresses)],
+	expected [Barbie™ The Movie Doll, Margot Robbie as, Collectibl…] but found [Barbie® Doll, Kids Toys, Brunette in Teal Metallic Dress, Trendy Clothes and Accessories, Gifts for Kids],
+	expected [Baby Alive Roller Skate Baby Doll, 12-Inch Toy for Kids A…] but found [VGRASSP Singing Songs and Poem Baby Girl Doll - Big Size Original - Plush Soft Clothing - 55 cm (Random Color and Dress)],
+	expected [SUPER TOY Folding Hands Teacher Doll Toy with 2 Bab…] but found [Baby Alive Rainbow Spa Baby Doll, 9-Inch Spa-Themed Toy for Kids Ages 3 and Up, Includes Doll Eye Mask and Bottle, Blonde Hair],
+	expected [Barbie™ The Movie Doll, Margot Robbie as, Collectibl…] but found [Barbie™ The Movie Doll Wearing Pink and White Gingham Dress with Daisy Chain Necklace],
+	expected [Barbie® Doll in Trendy Pink Jumpsuit with Storytelling…] but found [Munchkin Land Family Doll Set Includes Mom. Dad, Daughter &amp; Son Dolls and Accessories - Assorted Colours],
+	expected [Baby Alive Magical Styles Baby Doll, 12-Inch Toy for K…] but found [JGG Jain Gift Gallery Decorative Doll - Handcrafted Doll wear The Saree or Home/Living Room/Bed Room Decoration for Girl and Gift to Your Relative],
+	expected [Imagimake Window Art - Princess - 16 Pieces Glass Pa…] but found [PULSBERY Doll Set For Kids - 20+Pcs Fashion Doll with Dresses Makeup &amp; Cute Doll Accessories Style Wardrobe Doll Set for Girls, Gudiya Barbie Barbie Baby Doll For Girls(23 Piece Dolls Assesories, 1*Doll Playset)],
+	expected [Sebamed Baby Shampoo 150ml|Ph 5.5| Camomile|Na…] but found [Baby Alive Change Play Baby Doll, Drinks and Wets, Reusable Cloth Diaper, 12-Inch Toy for Kids Ages 3 Years and Up, Brown Hair]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at Amazon.AddMultipleProductsToCartandValidateTest.addMultipleProductsToCartandValidateTest(AddMultipleProductsToCartandValidateTest.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>333</td>
+<td>Amazon.AddMultipleProductsToCartandValidateTest@4b45a2f5</td></tr>
+</table><p>
+</body>
+</html>

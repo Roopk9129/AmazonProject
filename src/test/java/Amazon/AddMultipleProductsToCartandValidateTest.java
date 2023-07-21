@@ -24,7 +24,7 @@ public class AddMultipleProductsToCartandValidateTest extends BaseClass {
 		ShoppingCartPage SCP = new ShoppingCartPage(driver);
 		SoftAssert SA = new SoftAssert();
 
-		HP.getProductSearchBar().sendKeys("Dolls", Keys.ENTER);
+		HP.getProductSearchBar().sendKeys("dolls", Keys.ENTER);
 		List<WebElement> Titles = PRP.getListofTitles();
 		String parentW = driver.getTitle();
 		for (WebElement tit : Titles) {

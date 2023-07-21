@@ -1,40 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="Test1(failed)">
-    <parameter name="Browser" value="firefox"/>
+  <test thread-count="5" parallel="tests" name="Testrun(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="Amazon.ProductSearchAndAddToCat">
+      <class name="Amazon.AddMultipleProductsToCartandValidateTest">
         <methods>
           <include name="BM"/>
-          <include name="AddToCart"/>
+          <include name="addMultipleProductsToCartandValidateTest"/>
           <include name="AM"/>
-          <include name="AT"/>
-          <include name="AS"/>
-          <include name="BT"/>
           <include name="AC"/>
-          <include name="BS"/>
+          <include name="AS"/>
           <include name="BC"/>
+          <include name="BS"/>
         </methods>
-      </class> <!-- Amazon.ProductSearchAndAddToCat -->
+      </class> <!-- Amazon.AddMultipleProductsToCartandValidateTest -->
     </classes>
-  </test> <!-- Test1(failed) -->
-  <test thread-count="5" parallel="tests" name="Test(failed)">
-    <parameter name="Browser" value="chrome"/>
+  </test> <!-- Testrun(failed) -->
+  <test thread-count="5" parallel="tests" name="Testr(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Amazon.ProductSearchAndAddToCat">
+      <class name="Amazon.AddMultipleProductsToCartandValidateTest">
         <methods>
           <include name="BM"/>
-          <include name="AddToCart"/>
+          <include name="addMultipleProductsToCartandValidateTest"/>
           <include name="AM"/>
-          <include name="AT"/>
-          <include name="AS"/>
-          <include name="BT"/>
           <include name="AC"/>
-          <include name="BS"/>
+          <include name="AS"/>
           <include name="BC"/>
+          <include name="BS"/>
         </methods>
-      </class> <!-- Amazon.ProductSearchAndAddToCat -->
+      </class> <!-- Amazon.AddMultipleProductsToCartandValidateTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Testr(failed) -->
 </suite> <!-- Failed suite [Suite] -->

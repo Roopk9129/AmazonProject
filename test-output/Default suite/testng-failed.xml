@@ -8,9 +8,7 @@
           <include name="BM"/>
           <include name="addMultipleProductsToCartandValidateTest"/>
           <include name="AM"/>
-          <include name="AT"/>
           <include name="AC"/>
-          <include name="BT"/>
           <include name="AS"/>
           <include name="BC"/>
           <include name="BS"/>
