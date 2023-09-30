@@ -9,7 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -17,7 +16,6 @@ import java.util.List;
 
 public class AmazonDataExtractor {
     public static void main(String[] args) {
-        WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
         try {

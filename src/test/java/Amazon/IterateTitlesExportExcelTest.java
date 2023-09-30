@@ -25,7 +25,6 @@ public class IterateTitlesExportExcelTest extends BaseClass {
 
 		// BL
 		int RCount=0;
-		int CCount=0;
 		HP.ProductSearchBar(Value);
 		List<WebElement> Title = driver
 				.findElements(By.xpath("//span[@class='a-size-base-plus a-color-base a-text-normal']"));

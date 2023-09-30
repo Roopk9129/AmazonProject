@@ -1,5 +1,6 @@
 package Amazon;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.Keys;
@@ -24,11 +25,12 @@ public class AddMultipleProductsToCartandValidateTest extends BaseClass {
 		ShoppingCartPage SCP = new ShoppingCartPage(driver);
 		SoftAssert SA = new SoftAssert();
 
-		HP.getProductSearchBar().sendKeys("mobiles", Keys.ENTER);
+		HP.getProductSearchBar().sendKeys("dolls", Keys.ENTER);
 		List<WebElement> Titles = PRP.getListofTitles();
 		String parentW = driver.getTitle();
 		for (WebElement tit : Titles) {
 			String text = tit.getText();
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
 			tit.click();
 			RUM.windowHandlesWithForEach(driver, text);

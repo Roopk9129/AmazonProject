@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite" Parallel="tests" thread-count="5">
+
+	<test name="t1" >
+		<classes>
+			<class name="Amazon.IterateTitlesExportExcelTest" />
+		</classes>
+	</test>
+	<test name="t2" >
+		<classes>
+			<class name="Amazon.IterateTitlesExportExcelTest" />
+		</classes>
+	</test>
+</suite>

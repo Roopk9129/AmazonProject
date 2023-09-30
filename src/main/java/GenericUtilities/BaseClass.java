@@ -4,6 +4,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -18,7 +19,6 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 	public WebDriver driver;
@@ -41,19 +41,18 @@ public class BaseClass {
 	public void BC() throws IOException {
 		String Browser = PF.AmazonUrlFetch("browser");
 		if (Browser.equalsIgnoreCase("chrome")) {
-			WebDriverManager.chromedriver().setup();
+//			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 			driver.manage().window().maximize();
 		} else if (Browser.equalsIgnoreCase("firefox")) {
-			WebDriverManager.firefoxdriver().setup();
+			
 			driver = new FirefoxDriver();
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 			driver.manage().window().maximize();
 		} else if (Browser.equalsIgnoreCase("edge")) {
-			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 			driver.manage().window().maximize();
 
 		}

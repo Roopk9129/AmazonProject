@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Amazon.AddMultipleProductsToCartandValidateTest">
+      <class name="Amazon.ProductSerchandtransfertoexcelsheettest">
         <methods>
           <include name="BM"/>
-          <include name="addMultipleProductsToCartandValidateTest"/>
           <include name="AM"/>
+          <include name="productSerchandtransfertoexcelsheettest"/>
           <include name="AC"/>
           <include name="AS"/>
-          <include name="BC"/>
           <include name="BS"/>
+          <include name="BC"/>
         </methods>
-      </class> <!-- Amazon.AddMultipleProductsToCartandValidateTest -->
+      </class> <!-- Amazon.ProductSerchandtransfertoexcelsheettest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
